@@ -32,7 +32,9 @@ h5 {
 *******************************/
 
 .hero {
-
+  padding: 30px;
+  height: 450px;
+  background-color: #deeee6;
 }
 
 .page {
@@ -41,6 +43,31 @@ h5 {
 
 .footer {
 
+}
+
+/*****************************************************************************/
+
+.half-half {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-family: "Merriweather", Times New Roman, serif;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.intro {
+  flex-basis: 30%;
+}
+
+.button {
+  background-color: #4daf7c; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 20px;
 }
 
 
