@@ -10,6 +10,7 @@ html, body {
 body {
   min-height: 100%;
   height: auto;
+  flex-wrap: wrap;
 }
 
 h1,
@@ -18,13 +19,8 @@ h3,
 h4,
 h5 {
   font-family: "Merriweather", Times New Roman, serif;
+  font-weight: normal;
 }
-
-
-.button {
-
-}
-
 
 
 /*******************************
@@ -42,7 +38,7 @@ h5 {
 }
 
 .footer {
-
+  background-color: #242525;
 }
 
 /*****************************************************************************/
@@ -70,6 +66,62 @@ h5 {
   margin-top: 20px;
 }
 
+.card-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 320px;
+  height: 380px;
+  background-color: black;
+  margin-top: 60px;
+  box-shadow: 5px 5px 15px grey;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+}
+
+.card-header {
+  background-color: white;
+  height: 160px;
+  padding-top: 10px;
+  padding-left: 20px;  
+}
+
+.bottom-cta {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.bottom-cta-p {
+  width: 200px;
+  color: dimgrey;
+  font-size: 18px;
+}
+
+.green {
+  color: #4daf7c;
+}
+
+.footer-layout {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-p {
+  color: grey;
+  margin-left: 10px;
+  font-size: 12px;
+}
 
 /*******************************
          Responsive
